@@ -18,7 +18,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-core;1.0.0 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: MergedDescriptors(dependency: ch.qos.logback#logback-core;1.0.0 {compile=[default(compile)]},dependency: ch.qos.logback#logback-core;1.0.0 {compile=[default(compile)]})[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.0.0 {compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.0.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found ch.qos.logback#logback-core;1.0.0 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-core;1.0.0 [compile->runtime][0m
@@ -31,7 +31,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-classic;1.0.0 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: MergedDescriptors(dependency: ch.qos.logback#logback-classic;1.0.0 {compile=[default(compile)]},dependency: ch.qos.logback#logback-classic;1.0.0 {compile=[default(compile)]})[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.0.0 {compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.0.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found ch.qos.logback#logback-classic;1.0.0 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-classic;1.0.0 [compile->runtime][0m
@@ -68,231 +68,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-classic;1.0.0 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.ensime#sbt-ensime;2.5.1 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->com.typesafe.scala-logging#scala-logging-slf4j_2.10;2.0.4 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.ensime#sbt-ensime;2.5.1 {compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.ensime#sbt-ensime;2.5.1 {compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/huangrichao/.ivy2/local/org.ensime/sbt-ensime/scala_2.10/sbt_1.0/2.5.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried file:/Users/huangrichao/.m2/repository/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Maven2 Local: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried http://maven.aliyun.com/nexus/content/groups/public/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=http://maven.aliyun.com/nexus/content/groups/public/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ali-maven: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried http://cnjmtr:9527/artifactory/scala-repos/org.ensime/sbt-ensime/scala_2.10/sbt_1.0/2.5.1/ivys/ivy.xml[0m
-[0m[[0m[31merror[0m] [0m[0mSERVER ERROR: Connect failed url=http://cnjmtr:9527/artifactory/scala-repos/org.ensime/sbt-ensime/scala_2.10/sbt_1.0/2.5.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ivy-proxy-releases: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried http://cnjmtr:9527/artifactory/scala-repos/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[31merror[0m] [0m[0mSERVER ERROR: Connect failed url=http://cnjmtr:9527/artifactory/scala-repos/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	maven-proxy-releases-jfrog: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried http://cnjmtr:8081/nexus/content/groups/public/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[31merror[0m] [0m[0mSERVER ERROR: Connect failed url=http://cnjmtr:8081/nexus/content/groups/public/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	maven-proxy-releases: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	maven-central: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://oss.sonatype.org/content/groups/public/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/groups/public/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	oss-central: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ensime/sbt-ensime/scala_2.10/sbt_1.0/2.5.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ensime/sbt-ensime/scala_2.10/sbt_1.0/2.5.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ensime/sbt-ensime/scala_2.10/sbt_1.0/2.5.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ensime/sbt-ensime/scala_2.10/sbt_1.0/2.5.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-release: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	oss-snapshot: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried http://cnjmtr:9527/artifactory/libs-release-local/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[31merror[0m] [0m[0mSERVER ERROR: Connect failed url=http://cnjmtr:9527/artifactory/libs-release-local/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	libs-release-local: no ivy file found for org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[33mwarn[0m] [0m[0m	module not found: org.ensime#sbt-ensime;2.5.1[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== local: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  /Users/huangrichao/.ivy2/local/org.ensime/sbt-ensime/scala_2.10/sbt_1.0/2.5.1/ivys/ivy.xml[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== Maven2 Local: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  file:/Users/huangrichao/.m2/repository/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== ali-maven: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  http://maven.aliyun.com/nexus/content/groups/public/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== ivy-proxy-releases: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  http://cnjmtr:9527/artifactory/scala-repos/org.ensime/sbt-ensime/scala_2.10/sbt_1.0/2.5.1/ivys/ivy.xml[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== maven-proxy-releases-jfrog: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  http://cnjmtr:9527/artifactory/scala-repos/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== maven-proxy-releases: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  http://cnjmtr:8081/nexus/content/groups/public/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== maven-central: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  https://repo1.maven.org/maven2/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== oss-central: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  https://oss.sonatype.org/content/groups/public/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== typesafe-ivy: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  https://repo.typesafe.com/typesafe/ivy-releases/org.ensime/sbt-ensime/scala_2.10/sbt_1.0/2.5.1/ivys/ivy.xml[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== sbt-plugin-release: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ensime/sbt-ensime/scala_2.10/sbt_1.0/2.5.1/ivys/ivy.xml[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== oss-snapshot: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  https://oss.sonatype.org/content/repositories/snapshots/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[33mwarn[0m] [0m[0m==== libs-release-local: tried[0m
-[0m[[0m[33mwarn[0m] [0m[0m  http://cnjmtr:9527/artifactory/libs-release-local/org/ensime/sbt-ensime_2.10_1.0/2.5.1/sbt-ensime-2.5.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.growingio.quickscala#hello_2.10;0.0.1 [runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.growingio.quickscala#hello_2.10;0.0.1 [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-core;1.0.0 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-core;1.0.0 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-core;1.0.0 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-core;1.0.0 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-classic;1.0.0 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-classic;1.0.0 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-classic;1.0.0 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->ch.qos.logback#logback-core;1.0.0 [compile->master(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->ch.qos.logback#logback-core;1.0.0 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->org.slf4j#slf4j-api;1.6.4 [compile->master(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->ch.qos.logback#logback-core;1.0.0 [runtime->runtime(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->ch.qos.logback#logback-core;1.0.0 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->org.slf4j#slf4j-api;1.6.4 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-classic;1.0.0 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.ensime#sbt-ensime;2.5.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.growingio.quickscala#hello_2.10;0.0.1 [test][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.growingio.quickscala#hello_2.10;0.0.1 [runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.growingio.quickscala#hello_2.10;0.0.1 [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-core;1.0.0 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-core;1.0.0 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-core;1.0.0 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-core;1.0.0 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-classic;1.0.0 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-classic;1.0.0 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-classic;1.0.0 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->ch.qos.logback#logback-core;1.0.0 [compile->master(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->ch.qos.logback#logback-core;1.0.0 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->org.slf4j#slf4j-api;1.6.4 [compile->master(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->ch.qos.logback#logback-core;1.0.0 [runtime->runtime(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->ch.qos.logback#logback-core;1.0.0 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->org.slf4j#slf4j-api;1.6.4 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->ch.qos.logback#logback-classic;1.0.0 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {test=[runtime(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.ensime#sbt-ensime;2.5.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.growingio.quickscala#hello_2.10;0.0.1->org.scalatest#scalatest_2.10;1.8 [test->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;1.8 {test=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.10;1.8 {test=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/huangrichao/.ivy2/local/org.scalatest/scalatest_2.10/1.8/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scalatest#scalatest_2.10;1.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried file:/Users/huangrichao/.m2/repository/org/scalatest/scalatest_2.10/1.8/scalatest_2.10-1.8.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Maven2 Local: no ivy file found for org.scalatest#scalatest_2.10;1.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried http://maven.aliyun.com/nexus/content/groups/public/org/scalatest/scalatest_2.10/1.8/scalatest_2.10-1.8.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=http://maven.aliyun.com/nexus/content/groups/public/org/scalatest/scalatest_2.10/1.8/scalatest_2.10-1.8.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ali-maven: no ivy file found for org.scalatest#scalatest_2.10;1.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried http://cnjmtr:9527/artifactory/scala-repos/org.scalatest/scalatest_2.10/1.8/ivys/ivy.xml[0m
-[0m[[0m[31merror[0m] [0m[0mSERVER ERROR: Connect failed url=http://cnjmtr:9527/artifactory/scala-repos/org.scalatest/scalatest_2.10/1.8/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ivy-proxy-releases: no ivy file found for org.scalatest#scalatest_2.10;1.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried http://cnjmtr:9527/artifactory/scala-repos/org/scalatest/scalatest_2.10/1.8/scalatest_2.10-1.8.pom[0m
-[0m[[0m[31merror[0m] [0m[0mSERVER ERROR: Connect failed url=http://cnjmtr:9527/artifactory/scala-repos/org/scalatest/scalatest_2.10/1.8/scalatest_2.10-1.8.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	maven-proxy-releases-jfrog: no ivy file found for org.scalatest#scalatest_2.10;1.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried http://cnjmtr:8081/nexus/content/groups/public/org/scalatest/scalatest_2.10/1.8/scalatest_2.10-1.8.pom[0m
-[0m[[0m[31merror[0m] [0m[0mSERVER ERROR: Connect failed url=http://cnjmtr:8081/nexus/content/groups/public/org/scalatest/scalatest_2.10/1.8/scalatest_2.10-1.8.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	maven-proxy-releases: no ivy file found for org.scalatest#scalatest_2.10;1.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.8/scalatest_2.10-1.8.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.8/scalatest_2.10-1.8.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	maven-central: no ivy file found for org.scalatest#scalatest_2.10;1.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://oss.sonatype.org/content/groups/public/org/scalatest/scalatest_2.10/1.8/scalatest_2.10-1.8.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.typesafe.scala-logging#scala-logging-slf4j_2.10;2.0.4 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.scala-logging#scala-logging-slf4j_2.10;2.0.4 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/huangrichao/.ivy2/local/com.typesafe.scala-logging/scala-logging-slf4j_2.10/2.0.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.typesafe.scala-logging#scala-logging-slf4j_2.10;2.0.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried file:/Users/huangrichao/.m2/repository/com/typesafe/scala-logging/scala-logging-slf4j_2.10/2.0.4/scala-logging-slf4j_2.10-2.0.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Maven2 Local: no ivy file found for com.typesafe.scala-logging#scala-logging-slf4j_2.10;2.0.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried http://maven.aliyun.com/nexus/content/groups/public/com/typesafe/scala-logging/scala-logging-slf4j_2.10/2.0.4/scala-logging-slf4j_2.10-2.0.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=http://maven.aliyun.com/nexus/content/groups/public/com/typesafe/scala-logging/scala-logging-slf4j_2.10/2.0.4/scala-logging-slf4j_2.10-2.0.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ali-maven: no ivy file found for com.typesafe.scala-logging#scala-logging-slf4j_2.10;2.0.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried http://cnjmtr:9527/artifactory/scala-repos/com.typesafe.scala-logging/scala-logging-slf4j_2.10/2.0.4/ivys/ivy.xml[0m

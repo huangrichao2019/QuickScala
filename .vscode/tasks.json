@@ -30,6 +30,7 @@
             "isBuildCommand": true,
             "args": [
                 "${file}"
+                "Jack"
             ]
         }
     ]

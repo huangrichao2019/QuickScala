@@ -4,7 +4,7 @@
 		module="quickscala-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190715235019"
+		publication="20190717204218"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
